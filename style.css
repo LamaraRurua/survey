@@ -8,11 +8,18 @@
  }
  .container{
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
  }
  .form-content{
   display: flex;
   flex-wrap:wrap;
   
+ }
+ .header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
  }
